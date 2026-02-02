@@ -1,0 +1,39 @@
+
+/* Hero Section */
+.hero-section {
+  background: url('../assets/images/hero-bg.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+/* Portfolio Cards */
+.portfolio-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  transition: transform 0.3s;
+}
+.portfolio-card:hover {
+  transform: scale(1.05);
+}
+.portfolio-card img {
+  width: 100%;
+}
+.portfolio-card-body {
+  padding: 15px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Table Section */
+#data-table th, #data-table td {
+  text-align: center;
+}
